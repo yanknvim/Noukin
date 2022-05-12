@@ -7,7 +7,6 @@ import random
 pointer = 0
 mem = [0 for i in range(32768)]
 pos = 0
-lpos = 0
 
 path = sys.argv[1]
 
