@@ -48,5 +48,5 @@ with open(path) as f:  # open file
                     elif code[pos] == "始":
                         nest -= 1
         elif code[pos] == "乱":
-            code[pos] = random.randint(0, 255)
+            mem[pointer] = random.randint(0, 255)
         pos += 1
